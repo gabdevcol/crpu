@@ -1,0 +1,16 @@
+
+.button-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.button-container a {
+    font-size: x-large;
+    margin: 0 10px; /* Espaciado entre los botones */
+    border-radius: 20px; /* Borde redondeado */
+     /* Ajusta el tamaño del botón */
+    padding: 2vh 5vw;
+}
